@@ -1,0 +1,224 @@
+.review-table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+}
+
+.table-header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 18px;
+}
+
+.sentiment-tabs {
+  display: flex;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.tab-btn {
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-radius: 8px;
+  transition: all var(--transition-fast);
+}
+
+.tab-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.tab-btn.active {
+  color: #ffffff;
+  background: var(--primary);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.2);
+}
+
+.tab-btn.positive.active {
+  background: var(--success);
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.25);
+}
+
+.tab-btn.neutral.active {
+  background: var(--warning);
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.25);
+}
+
+.tab-btn.negative.active {
+  background: var(--danger);
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.25);
+}
+
+.table-search-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 6px 12px;
+  width: 250px;
+  transition: all var(--transition-fast);
+}
+
+.table-search-wrapper:focus-within {
+  border-color: var(--border-focus);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.table-search-icon {
+  color: var(--text-muted);
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.table-search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  font-family: inherit;
+  width: 100%;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.review-row {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: all var(--transition-fast);
+}
+
+.review-row:hover {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.review-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-date-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+}
+
+.date-icon {
+  flex-shrink: 0;
+}
+
+.review-date {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.review-text {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.empty-reviews-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.empty-icon {
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.empty-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.empty-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.table-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  padding-top: 16px;
+  margin-top: 8px;
+}
+
+.pagination-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.pagination-btn:hover:not(:disabled) {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.pagination-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .table-header-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sentiment-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 6px;
+  }
+
+  .table-search-wrapper {
+    width: 100%;
+  }
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Excellent camera quality and battery life. Highly recommended!",
+    "reviewerName": "Amit Kumar",
+    "reviewDate": "Reviewed in India on 23 June 2026",
+    "_id": "6a478a1eb19f397e3ad5941b",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "The phone is great, but the charging speed is a bit slow compared to Android devices.",
+    "reviewerName": "Neha Sharma",
+    "reviewDate": "Reviewed in India on 20 June 2026",
+    "_id": "6a478a1eb19f397e3ad5941c",
+    "rating": 4.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Battery drains too fast. Not worth the high price.",
+    "reviewerName": "Rahul Verma",
+    "reviewDate": "Reviewed in India on 21 June 2026",
+    "_id": "6a478a1eb19f397e3ad5941d",
+    "rating": 2.0,
+    "sentiment": "Negative"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Value for money product. Premium look and feel.",
+    "reviewerName": "Priya Patel",
+    "reviewDate": "Reviewed in India on 20 June 2026",
+    "_id": "6a478a1eb19f397e3ad5941e",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Average performance. Nothing spectacular over the iPhone 13.",
+    "reviewerName": "Siddharth Sen",
+    "reviewDate": "Reviewed in India on 15 June 2026",
+    "_id": "6a478a1eb19f397e3ad5941f",
+    "rating": 3.0,
+    "sentiment": "Neutral"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Decent phone, but screen refresh rate is still 60Hz. Disappointed.",
+    "reviewerName": "Vikram Singh",
+    "reviewDate": "Reviewed in India on 18 June 2026",
+    "_id": "6a478a1eb19f397e3ad59420",
+    "rating": 3.0,
+    "sentiment": "Negative"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Superb display and very fast performance. The A15 chip is still a beast.",
+    "reviewerName": "Anjali Gupta",
+    "reviewDate": "Reviewed in India on 17 June 2026",
+    "_id": "6a478a1eb19f397e3ad59421",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Face ID works perfectly. iOS is smooth.",
+    "reviewerName": "Rohan Das",
+    "reviewDate": "Reviewed in India on 16 June 2026",
+    "_id": "6a478a1eb19f397e3ad59422",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Sleek design, but extremely expensive accessories.",
+    "reviewerName": "Shweta Tiwari",
+    "reviewDate": "Reviewed in India on 07 June 2026",
+    "_id": "6a478a1eb19f397e3ad59423",
+    "rating": 4.0,
+    "sentiment": "Neutral"
+  },
+  {
+    "productName": "Apple iPhone 14 (128 GB) - Blue",
+    "review": "Worst experience. Phone got heated up within 10 minutes of gaming.",
+    "reviewerName": "Kunal Kapoor",
+    "reviewDate": "Reviewed in India on 27 May 2026",
+    "_id": "6a478a1eb19f397e3ad59424",
+    "rating": 1.0,
+    "sentiment": "Negative"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Very useful smart speaker. Sound is good for a small room.",
+    "reviewerName": "Deepak R.",
+    "reviewDate": "Reviewed in India on 07 June 2026",
+    "_id": "6a478a1eb19f397e3ad59425",
+    "rating": 4.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Alexa sometimes doesn't understand Indian accent. Otherwise good.",
+    "reviewerName": "Karan Johar",
+    "reviewDate": "Reviewed in India on 05 June 2026",
+    "_id": "6a478a1eb19f397e3ad59426",
+    "rating": 3.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Absolutely love it! Best budget smart speaker.",
+    "reviewerName": "Meera Bai",
+    "reviewDate": "Reviewed in India on 03 June 2026",
+    "_id": "6a478a1eb19f397e3ad59427",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Speaker quality could have been better. Bass is flat.",
+    "reviewerName": "Suresh Raina",
+    "reviewDate": "Reviewed in India on 29 May 2026",
+    "_id": "6a478a1eb19f397e3ad59428",
+    "rating": 3.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Connecting to Wi-Fi is a nightmare. Keeps disconnecting.",
+    "reviewerName": "Vijay Malhotra",
+    "reviewDate": "Reviewed in India on 30 May 2026",
+    "_id": "6a478a1eb19f397e3ad59429",
+    "rating": 2.0,
+    "sentiment": "Neutral"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "My kids love asking questions to Alexa. Great educational tool.",
+    "reviewerName": "Sunita Rao",
+    "reviewDate": "Reviewed in India on 02 June 2026",
+    "_id": "6a478a1eb19f397e3ad5942a",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Excellent integration with my smart home lights.",
+    "reviewerName": "Rajesh Nair",
+    "reviewDate": "Reviewed in India on 26 May 2026",
+    "_id": "6a478a1eb19f397e3ad5942b",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Too small, volume is low. Go for Echo Plus if you want loud music.",
+    "reviewerName": "Preeti Sen",
+    "reviewDate": "Reviewed in India on 17 May 2026",
+    "_id": "6a478a1eb19f397e3ad5942c",
+    "rating": 3.0,
+    "sentiment": "Negative"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Very useful smart speaker. Sound is good for a small room.",
+    "reviewerName": "Deepak R.",
+    "reviewDate": "Reviewed in India on 30 May 2026",
+    "_id": "6a478a1eb19f397e3ad5942d",
+    "rating": 4.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Echo Dot (3rd Gen) - Smart speaker with Alexa",
+    "review": "Alexa sometimes doesn't understand Indian accent. Otherwise good.",
+    "reviewerName": "Karan Johar",
+    "reviewDate": "Reviewed in India on 29 May 2026",
+    "_id": "6a478a1eb19f397e3ad5942e",
+    "rating": 3.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "Superb phone! The Dynamic Island is amazing and the camera quality is top-notch.",
+    "reviewerName": "Suresh Kumar",
+    "reviewDate": "27 days ago",
+    "_id": "6a478a1eb19f397e3ad5942f",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "Battery backup is average. Charges slowly with standard chargers.",
+    "reviewerName": "Vijay Pal",
+    "reviewDate": "28 days ago",
+    "_id": "6a478a1eb19f397e3ad59430",
+    "rating": 3.0,
+    "sentiment": "Negative"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "Great display, super smooth transition, but the price is a bit high.",
+    "reviewerName": "Aditya Singh",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad59431",
+    "rating": 4.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "Moved from Android to iOS, taking time to adjust but the device is premium.",
+    "reviewerName": "Sneha Patel",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad59432",
+    "rating": 5.0,
+    "sentiment": "Neutral"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "The camera zoom could be better, but portrait mode is wonderful.",
+    "reviewerName": "Rohan Deshmukh",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad59433",
+    "rating": 4.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "No charger in the box. Apple is charging too much for basic items.",
+    "reviewerName": "Karan Sharma",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad59434",
+    "rating": 3.0,
+    "sentiment": "Negative"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "A perfect phone for photography lovers. Highly recommended!",
+    "reviewerName": "Priya Sharma",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad59435",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "Fabulous design and colors. USB-C port is finally here!",
+    "reviewerName": "Rajesh Gupta",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad59436",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "Superb phone! The Dynamic Island is amazing and the camera quality is top-notch.",
+    "reviewerName": "Suresh Kumar",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad59437",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Apple iPhone 15 (Black, 128 GB)",
+    "review": "Battery backup is average. Charges slowly with standard chargers.",
+    "reviewerName": "Vijay Pal",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad59438",
+    "rating": 3.0,
+    "sentiment": "Negative"
+  },
+  {
+    "productName": "Motorola G34 5G (Ice Blue, 128 GB)",
+    "review": "Best 5G phone under budget. Super smooth 120Hz display.",
+    "reviewerName": "Manish Kumar",
+    "reviewDate": "29 days ago",
+    "_id": "6a478a1eb19f397e3ad59439",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Motorola G34 5G (Ice Blue, 128 GB)",
+    "review": "Camera is below average, especially in low light. Performance is decent.",
+    "reviewerName": "Nisha Patel",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad5943a",
+    "rating": 3.0,
+    "sentiment": "Negative"
+  },
+  {
+    "productName": "Motorola G34 5G (Ice Blue, 128 GB)",
+    "review": "Very clean software experience, zero bloatware! Battery backup is excellent.",
+    "reviewerName": "Vikram Singh",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad5943b",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Motorola G34 5G (Ice Blue, 128 GB)",
+    "review": "Heating issue during heavy gaming. Normal usage is fine.",
+    "reviewerName": "Sandeep K.",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad5943c",
+    "rating": 3.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Motorola G34 5G (Ice Blue, 128 GB)",
+    "review": "Sound output is decent. The design looks premium for this price range.",
+    "reviewerName": "Anil Verma",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad5943d",
+    "rating": 4.0,
+    "sentiment": "Neutral"
+  },
+  {
+    "productName": "Motorola G34 5G (Ice Blue, 128 GB)",
+    "review": "Superb value for money. Highly recommend to budget buyers.",
+    "reviewerName": "Jitendra Pal",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad5943e",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  },
+  {
+    "productName": "Motorola G34 5G (Ice Blue, 128 GB)",
+    "review": "Best 5G phone under budget. Super smooth 120Hz display.",
+    "reviewerName": "Manish Kumar",
+    "reviewDate": "1 month ago",
+    "_id": "6a478a1eb19f397e3ad5943f",
+    "rating": 5.0,
+    "sentiment": "Positive"
+  }
+]

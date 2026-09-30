@@ -1,0 +1,55 @@
+.chart-wrapper {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: all var(--transition-normal);
+}
+
+.chart-wrapper:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.chart-card-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-left: 3px solid var(--primary);
+  padding-left: 10px;
+}
+
+.chart-container {
+  width: 100%;
+}
+
+.chart-legend-text {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.charts-tooltip {
+  background: rgba(17, 24, 39, 0.9) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+.tooltip-label {
+  color: var(--text-primary) !important;
+  margin: 0 !important;
+}
+
+.tooltip-value {
+  margin: 0 !important;
+}

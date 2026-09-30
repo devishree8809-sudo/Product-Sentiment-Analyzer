@@ -1,0 +1,124 @@
+.navbar-header {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: 1200px;
+  height: 70px;
+  z-index: 1000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.logo-icon {
+  color: var(--primary);
+  filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.4));
+}
+
+.logo-dot {
+  color: var(--accent);
+}
+
+.navbar-desktop {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.nav-link:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav-link.active {
+  color: var(--text-primary);
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.navbar-toggle {
+  display: none;
+  color: var(--text-primary);
+}
+
+.navbar-mobile {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  padding: 16px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all var(--transition-normal);
+}
+
+.navbar-mobile.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.navbar-mobile-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .navbar-desktop {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-color);
+    transition: background var(--transition-fast);
+  }
+
+  .navbar-toggle:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+}

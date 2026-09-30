@@ -1,0 +1,149 @@
+.summary-card {
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.summary-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  transition: background var(--transition-fast);
+}
+
+.card-body {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.card-value {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.card-percentage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pct-num {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.pct-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.card-total .card-icon-wrapper {
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--primary);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+.card-total::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--primary);
+}
+.card-total:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+.card-positive .card-icon-wrapper {
+  background: var(--success-bg);
+  color: var(--success);
+  border: 1px solid var(--success-border);
+}
+.card-positive .pct-num {
+  color: var(--success);
+}
+.card-positive::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--success);
+}
+.card-positive:hover {
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.card-neutral .card-icon-wrapper {
+  background: var(--warning-bg);
+  color: var(--warning);
+  border: 1px solid var(--warning-border);
+}
+.card-neutral .pct-num {
+  color: var(--warning);
+}
+.card-neutral::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--warning);
+}
+.card-neutral:hover {
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.card-negative .card-icon-wrapper {
+  background: var(--danger-bg);
+  color: var(--danger);
+  border: 1px solid var(--danger-border);
+}
+.card-negative .pct-num {
+  color: var(--danger);
+}
+.card-negative::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--danger);
+}
+.card-negative:hover {
+  border-color: rgba(239, 68, 68, 0.3);
+}
